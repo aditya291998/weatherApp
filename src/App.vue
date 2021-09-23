@@ -1,7 +1,12 @@
 <template>
-  <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp>16 ? 'warm':''">
+  <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp>20 ? 'warm':''">
     <main>
       <h1 style="text-align:center;">Welcome to weather information Portal</h1>
+      <br>
+      <br>
+      <h1 style="text-align:center;">We are in develop branch</h1>
+      <br>
+      <br>
       <div class="search-box">
         <input 
         type="text" 
@@ -73,13 +78,13 @@ body {
   font-family: 'montserrat', sans-serif;
 }
 #app {
-  background-image: url('./assets/cold-bg.jpg');
+  background-image: url('./assets/cold-bg1.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4s;
 }
 #app.warm {
-  background-image: url('./assets/warm-bg.jpg');
+  background-image: url('./assets/warm-bg1.jpg');
 }
 main {
   min-height: 100vh;
