@@ -4,7 +4,7 @@
       <h1 style="text-align:center;">Welcome to weather information Portal</h1>
       <br>
       <br>
-      <h1 style="text-align:center;">We are in develop branch</h1>
+      <h1 style="text-align:center;">We are in develop2 branch</h1>
       <br>
       <br>
       <div class="search-box">
