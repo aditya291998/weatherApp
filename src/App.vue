@@ -7,6 +7,9 @@
       <h1 style="text-align:center;">We are in Master branch</h1>
       <br>
       <br>
+      <h1 style="text-align:center;">We are in Master branch 2nd time</h1>
+      <br>
+      <br>
       <div class="search-box">
         <input 
         type="text" 
